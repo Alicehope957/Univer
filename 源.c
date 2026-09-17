@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main(void)
 {
-    int a = 0, b = 0;
-    scanf("%d %d", &a, &b);
-    printf("%d\n", a + b);
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    printf("%d\n", (a + b) * c);
     return 0;
 }
 	
